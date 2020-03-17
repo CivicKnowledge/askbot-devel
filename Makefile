@@ -61,3 +61,7 @@ release: build
 	make push -e VERSION=$(VERSION)
 
 default: build
+
+css:
+	lessc askbot/media/style/style.less askbot/media/style/style.css
+	python ./manage.py collectstatic --noinput

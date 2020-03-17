@@ -4,9 +4,9 @@
 
 /* global require */
 var gulp = require('gulp');
-var gutil = require('gulp-util');
-var jshint = require('gulp-jshint');
-var jscs = require('gulp-jscs');
+//var gutil = require('gulp-util');
+//var jshint = require('gulp-jshint');
+//var jscs = require('gulp-jscs');
 var closureCompiler = require('gulp-closure-compiler');
 
 // SETTINGS
